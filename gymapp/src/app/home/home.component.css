@@ -1,0 +1,36 @@
+.image img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.image h1
+{
+
+    font-family:monospace;
+    display: inline-block;
+    position: absolute;
+    left: 470px;
+    top:100px;
+    right:40px;
+    color:lightseagreen;
+}
+.image a
+{
+    font-family:monospace;
+    display: inline-block;
+    position: absolute;
+   
+    top:180px;
+    right:40px;
+    font-weight: bold;
+    color:whitesmoke;
+   text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+
+}
+a:hover {
+    background-color:red;
+  }

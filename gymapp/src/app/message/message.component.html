@@ -1,0 +1,29 @@
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th>Firstname</th>
+        <th>lastname</th>
+        <th>branch</th>
+        <th>Subject</th>
+        <th>Actions</th>
+        
+    </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let message of messages">
+        <td>{{message.firstname}}</td>
+        <td>{{message.lastname}}</td>
+        <td>{{message.country}}</td>
+        <td>{{message.subject}}</td>
+       <td>
+            <button (click)="delete(message.id) " class="btn btn-danger"  style="margin-left: 10px;">Delete</button>
+        </td>
+    
+
+       
+        </tr>
+
+    </tbody>
+

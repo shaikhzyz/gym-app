@@ -1,0 +1,28 @@
+.container
+{
+    float: left;
+    width: 33.3%;
+    padding:10px;
+    
+    
+}
+.right
+{
+    float: right;
+    width: 33.3%;
+    padding:10px;
+}
+.main
+{
+    background-color: blanchedalmond;
+}
+
+
+.mid
+{
+    display: block;
+    
+    padding:10px;
+
+}
+

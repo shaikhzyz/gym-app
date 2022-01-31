@@ -1,0 +1,38 @@
+   
+<h2>member list</h2>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+        <th>name</th>
+        <th>Branch</th>
+        <th>mobileno</th>
+        <th>gym-qualification</th>
+        <th>Full/Part-time</th>
+        <th>Salary</th>
+        <th>Actions</th>
+        
+    </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let gymstaff of gymstaffs">
+        <td>{{gymstaff.name}}</td>
+        <td>{{gymstaff.address}}</td>
+        <td>{{gymstaff.mobileno}}</td>
+        <td>{{gymstaff.qualification}}</td>
+        <td>{{gymstaff.time}}</td>
+        <td>{{gymstaff.salary}}</td>
+        <td>
+            <button (click)="updatestaff(gymstaff.id)" class="btn btn-info">Update</button>
+            
+        </td>
+    </tr>
+    </tbody>
+
+    <br>
+    <br>
+ 
+</table>
+
+
+        

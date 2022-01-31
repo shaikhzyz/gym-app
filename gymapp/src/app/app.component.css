@@ -1,0 +1,73 @@
+.mapper
+{
+    background-color:black; 
+    
+}
+.check
+{
+    display: block;
+    width: 60%;
+    margin: auto;
+    height:100px;
+   
+    
+
+}
+.check ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.check ul li a
+{
+    font-weight: bold;
+    color:whitesmoke;
+   text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: monospace;
+    
+}
+
+.left
+{
+    display: inline-block;
+    border: 2px solid greenyellow;
+    position: absolute;
+    left: auto;
+    top:10px;
+
+}
+.left img{
+    width:80px;
+    height: 80px;
+}
+.right
+{
+    position: absolute;
+    right:34px;
+    top:5px;
+    display: inline-block;
+
+}
+.right img{
+    width:120px;
+    height: 80px;
+
+}
+
+.right ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.right ul li a
+{
+    font-weight: bold;
+    color:red;
+   text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color:red;
+  }

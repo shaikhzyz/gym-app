@@ -1,0 +1,48 @@
+
+
+
+<h2>member list</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>mobileno</th>
+        <th>age</th>
+        <th>gender</th>
+        <th>gymtime</th>
+        <th>payment</th>
+        <th>Actions</th>
+        
+    </tr>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of employees">
+        <td>{{employee.name}}</td>
+        <td>{{employee.email}}</td>
+        <td>{{employee.mobileno}}</td>
+        <td>{{employee.age}}</td>
+        <td>{{employee.gender}}</td>
+        <td>{{employee.gymtime}}</td>
+        <td>{{employee.payment}}</td>
+        <td>
+            <button (click)="updateemployee(employee.id) " class="btn btn-info">Update</button>
+            
+            <button (click)="deleteemployee(employee.id) " class="btn btn-danger" style="margin-left: 10px;">Delete</button>
+
+            <button (click)="employeeDetails(employee.id) " class="btn btn-info" style="margin-left: 10px;">View</button>
+
+        </td>
+        </tr>
+
+
+
+        
+
+    </tbody>
+
+    <br>
+    <br>
+ 
+</table>

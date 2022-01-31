@@ -1,0 +1,46 @@
+<div class="section">
+
+	<img src="assets/image/gym.png">
+<form>
+	
+			
+<div class="weight">
+	<div class="center">
+	<h1>BMI calculator</h1>
+	
+	weight <input type= text name= weight placeholder="enter weight in kg" [(ngModel)]="weight">
+	<br><br>
+	height <input type= text name= height placeholder="enter height in cm" [(ngModel)]="height" >
+</div>
+	<br>
+	<div style="text-align: center; color: blueviolet;"> 
+		<button (click)="addnumber()" style="color: blue;"> check</button>
+		<br>
+
+		BMI: <b style="color: green;">{{sum}}</b>
+		
+		
+	 
+	</div>
+
+</div>
+<div class="container">
+<div class="left" style="text-align: center;" >
+	<h1 style="color:yellow;">{{name}}</h1><br>
+	<ul style="color: yellow;">
+		<b style="font-size: x-large ;">{{text}}</b><br><br>
+		<b style="font-size: x-large ;">{{text1}}</b><br><br>
+		<b style="font-size: x-large ;">{{text2}}</b><br><br>
+		<b style="font-size: x-large ;">{{text3}}</b><br><br>
+				
+	</ul>
+
+</div>
+
+</div>
+
+
+</form>
+
+</div>
+

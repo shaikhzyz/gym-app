@@ -1,0 +1,49 @@
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Pay..</h3>
+                    <p>Fill in the data below.</p>
+                    <form (ngSubmit)="login()">
+                         
+                        <div class="col-md-12">
+                           <input class="form-control" type="text" name="name" placeholder="Full Name" required  [(ngModel)]="pay.name">
+                           <div class="valid-feedback">Username field is valid!</div>
+                           <div class="invalid-feedback">Username field cannot be blank!</div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required [(ngModel)]="pay.email">
+                             <div class="valid-feedback">Email field is valid!</div>
+                             <div class="invalid-feedback">Email field cannot be blank!</div>
+                        </div>
+
+                       <div class="col-md-12" >
+                                <select id="gymtype" name="gymtype" value="gymtype" [(ngModel)]="pay.gymtype">
+                                  <option value="gym" >only gym:600 ₹</option>
+                                  <option value="cardio" >only cardio:200₹</option>
+                                  <option value="both" >gym+cardio :800₹</option>
+                           </select>
+                            
+                       </div>
+
+
+                       <div class="col-md-12">
+                        
+                            <input class="form-control" type="text" name="fees" placeholder="amount" required  [(ngModel)]="pay.fees">
+
+                      </div>
+
+
+                
+
+                        <div class="form-button mt-3" >
+                            <button id="submit" type="submit" class="btn btn-primary" style="color: green;">proceed to pay</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

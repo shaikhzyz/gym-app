@@ -1,0 +1,74 @@
+<div class="col-md-5 offset-md-3">
+    <h3>update member</h3>
+    <form (ngSubmit)="onsubmit()">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text " class="form-control" id="name"
+            [(ngModel)]="employee.name" name="name">
+            
+    
+        </div>
+        <br>
+    
+    
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email " class="form-control" id="email"
+            [(ngModel)]="employee.email" name="email">
+            
+    
+        </div>
+    <br>
+    
+        <div class="form-group">
+            <label>Mobile-No</label>
+            <input type="text " class="form-control" id="mobileno"
+            [(ngModel)]="employee.mobileno" name="mobileno">
+            
+    
+        </div>
+    
+        <br>
+    
+        <div class="form-group">
+            <label>Age</label>
+            <input type="text " class="form-control" id="age"
+            [(ngModel)]="employee.age" name="age">
+            
+    
+        </div>
+    
+    <br>
+        <div class="form-group">
+            <label>Gender</label>
+            <input type="text " class="form-control" id="gender"
+            [(ngModel)]="employee.gender" name="gender">
+            
+    
+        </div>
+    <br>
+    
+        <div class="form-group">
+            <label>Gym-Time</label>
+            <input type="text " class="form-control" id="gymtime"
+            [(ngModel)]="employee.gymtime" name="gymtime">
+            
+    
+        </div>
+    
+    <br>
+        <div class="form-group">
+            <label>Payment</label>
+            <input type="text " class="form-control" id="payment"
+            [(ngModel)]="employee.payment" name="payment">
+            
+    
+        </div>
+        <br>
+        <button class="btn btn-success" type="submit">Submit</button>
+        
+        
+    
+    
+    </form>
+    </div>

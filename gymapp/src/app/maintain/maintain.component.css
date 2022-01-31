@@ -1,0 +1,24 @@
+.check
+{
+    display: block;
+    width: 60%;
+    margin: auto;
+    height:100px;
+   
+    
+
+}
+.check ul li{
+ 
+    margin-left: 20px;
+}
+.check ul li a
+{
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: monospace;
+    
+}

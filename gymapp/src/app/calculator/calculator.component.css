@@ -1,0 +1,30 @@
+.weight
+{
+	position: absolute;
+    right:200px;
+    top:200px;
+    display: inline-block;
+	border:10px solid blue;
+	width: 400px;
+	height: 250px;
+	background-color:white;
+	
+}
+.center
+{
+	text-align: center;
+}
+.section img{
+	width: 100%;
+	background-size: cover;
+}
+.left
+{
+	position: absolute;
+	left: 10px;
+	top: 200px;
+	display: inline-block;
+	width: 450px;
+	height: 350px;	
+
+}
